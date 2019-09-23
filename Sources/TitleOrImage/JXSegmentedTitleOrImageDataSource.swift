@@ -36,6 +36,8 @@ open class JXSegmentedTitleOrImageDataSource: JXSegmentedTitleDataSource {
         itemModel.selectedImageInfo = selectedImageInfos?[index]
         itemModel.loadImageClosure = loadImageClosure
         itemModel.imageSize = imageSize
+        itemModel.titleSelectedColor = titleSelectedColor
+        itemModel.titleNormalColor = titleNormalColor
     }
 
     //MARK: - JXSegmentedViewDataSource
